@@ -15,7 +15,8 @@ const Chat = () => {
   const [room, setRoom] = useState("");
   const [messages, setmessages] = useState([]);
   const [message, setmessage] = useState('');
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://chat-app-backend-yvhn.onrender.com";
+  // const ENDPOINT = "localhost:5000";
   const [users, setusers] = useState('')
 
   const location = useLocation();
